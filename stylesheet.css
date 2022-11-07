@@ -1,3 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.fixed {
+   
+    width:10%;
+    position: fixed;
+    
+}
+.fixed a {
+    color: black;
+}
+.scroll {
+
+    width: 90%;
+    margin-left:10%;
+}
+
+.row, .menu, .menu-icons {
+    display: flex;
+}
+.col {
+    width: 50%;
+}
+
+.col img {
+    width: 100%;
+}
+
+.menu-icons, .menu {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    margin: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+}
+.menu-icon {
+    font-size: 20px;
+    display: block;
+    margin: 10px 0;
 }
