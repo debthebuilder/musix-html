@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;700&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Musix - HTML Design</title>
+</head>
+<body>
+    <!--Fixed Side Menu-->
+    <div class="wrapper">
+        <div class="fixed">
+            <nav>
+                <a href="index.html" class="logo">Musix</a>
+                <div class="menu-icons">
+                    <a href="index.html" class="menu-icon">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                    <a href="#" class="menu-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                    <a href="#" class="menu-icon">
+                        <span class="material-icons-outlined">music_note</span>
+                    </a>
+                    <a href="#" class="menu-icon">
+                        <i class="fa-solid fa-record-vinyl"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div class="scroll">
+            <div class="row">
+                <!--Details-->
+                <div class="col">
+                    <!--Search bar-->
+                    <div class="search-bar-container">
+                        <div class="search-bar">
+                            <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="search" name="search" placeholder="Search for songs, artists" class="input-bar" />
+                        </div>
+                    </div>
+                    <!--Song title and tag-->
+                    <div class="song-title-container">
+                        <span class="song-tag">popular</span>
+                        <h1 class="song-title">Its Alright ft. Shawn Kagan</h1>
+                    </div>
+                    <!--Song list-->
+                    <div class="song-list-container">
+                        <div class="song-item">
+                            <div>
+                                <span class="favorite-icon">
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                                <span class="artist-avatar">
+                                    <img class="" src="" alt="Artist" />
+                                </span>
+                                <span class="poster">Posted by Shawn Kagan</span>
+                            </div>
+                            <div>
+                                <span class="like-icon"><i class="fa-regular fa-heart"></i></span>
+                                <button class="play-btn">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                                <span class="total">31k</span>
+                            </div>
+                        </div>
+                        <div class="song-item">
+                            <div>
+                                <span class="favorite-icon">
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                                <span class="artist-avatar">
+                                    <img class="" src="" alt="Artist" />
+                                </span>
+                                <div class="title-poster">
+                                    <span class="title">Your Tears</span>
+                                    <span class="poster">Posted by Noah Gab</span>
+                                </div>
+                               
+                            </div>
+                            <div>
+                                <span class="like-icon"><i class="fa-regular fa-heart"></i></span>
+                                <button class="play-btn">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                                <span class="total">31k</span>
+                            </div>
+                        </div>
+                        <div class="song-item">
+                            <div>
+                                <span class="favorite-icon">
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                                <span class="artist-avatar">
+                                    <img class="" src="" alt="Artist" />
+                                </span>
+                                <div class="title-poster">
+                                    <span class="title">Your Tears</span>
+                                    <span class="poster">Posted by Noah Gab</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="like-icon"><i class="fa-regular fa-heart"></i></span>
+                                <button class="play-btn">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                                <span class="total">31k</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Best of Songs-->
+                    <div class="best-of-playlists">
+                        <span class="tag">playlists (7)</span>
+                        <h2>Best of</h2>
+                        <ul class="playlists">
+                            <li class="playlist">
+                                <img src="" alt="" class="playlist-cover" />
+                                <span class="playlist-title">uncle mars</span>
+                            </li>
+                            <li class="playlist">
+                                <img src="" alt="" class="playlist-cover" />
+                                <span class="playlist-title">roads away</span>
+                            </li>
+                            <li class="playlist">
+                                <img src="" alt="" class="playlist-cover" />
+                                <span class="playlist-title">violet lights</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Song Cover-->
+                <div class="col">
+                    <img src="./assets/song-cover.jpg" alt="Photo by Darya Sannikova: https://www.pexels.com/photo/photo-of-woman-sipping-from-bottle-4633806/" />
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Scroll-->
+    <!--Music player-->
+    <div class="musix-player-container">
+        <div class="musix-player">
+            <span class="song-cover">
+                <img src="" alt="song cover" />
+            </span>
+            <audio></audio>
+        </div>
+    </div>
+</body>
+</html>
