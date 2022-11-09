@@ -12,33 +12,41 @@ body {
 .wrapper {
     width: 100%;
     display: flex;
-    position: relative;
+    position: relative; 
 }
 
 .fixed {
-   
     width:10%;
     position: fixed;
-    
+    padding: 3.5% 0;
 }
+
 .fixed a {
     color: black;
 }
-.scroll {
 
+.scroll {
     width: 90%;
     margin-left:10%;
+   
 }
 
 .row, .menu, .menu-icons {
     display: flex;
 }
+
 .col {
     width: 50%;
 }
 
+.song {
+    padding: 5%;
+}
 .col img {
     width: 100%;
+}
+.img {
+    padding: 0 5%
 }
 
 .menu-icons, .menu {
@@ -47,6 +55,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .logo {
     margin: 15px 0;
     font-size: 24px;
@@ -57,4 +66,76 @@ body {
     font-size: 20px;
     display: block;
     margin: 10px 0;
+}
+
+.search-bar-container {
+    margin-bottom: 20px;
+}
+.search-bar {
+    display: flex;
+    width: 100%;
+}
+.search-icon {
+    color: red;
+}
+.input-bar {
+    display: block;
+    margin-left: 10px;
+    border: 0;
+    font-size: 16px;
+
+}
+
+.input-bar:hover, .input-bar:focus {
+    border: 0;
+    outline: none;
+}
+
+.song-title-container {
+    margin-bottom: 20px;
+}
+.song-tag {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.song-title {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 56px;
+}
+.song-list-container
+.song-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.favorite-icon {
+    font-size: 16px;
+}
+.artist-avatar
+.poster
+.like, .play-stats {
+    display: flex;
+}
+.like-icon {
+    font-size: 16px;
+    margin-right: 10px;
+}
+.like-icon:hover {
+    color: red;
+}
+.play-btn {
+    background-color: transparent;
+    border:0;
+    font-size: 16px;
+    color: gray;
+    margin: 0 10px;
+}
+.total-play
+.song-item:hover  {
+    background-color: yellow;
+    font-weight: semibold;
 }

@@ -18,8 +18,9 @@
     <title>Musix - HTML Design</title>
 </head>
 <body>
-    <!--Fixed Side Menu-->
+    
     <div class="wrapper">
+         <!--Fixed Side Menu-->
         <div class="fixed">
             <nav class="menu">
                 <a href="index.html" class="logo">Musix</a>
@@ -39,10 +40,11 @@
                 </div>
             </nav>
         </div>
+         <!--Scroll-->
         <div class="scroll">
             <div class="row">
                 <!--Details-->
-                <div class="col">
+                <div class="col song">
                     <!--Search bar-->
                     <div class="search-bar-container">
                         <div class="search-bar">
@@ -58,7 +60,7 @@
                     <!--Song list-->
                     <div class="song-list-container">
                         <div class="song-item">
-                            <div>
+                            <div class="song-details">
                                 <span class="favorite-icon">
                                     <i class="fa-regular fa-star"></i>
                                 </span>
@@ -67,12 +69,16 @@
                                 </span>
                                 <span class="poster">Posted by Shawn Kagan</span>
                             </div>
-                            <div>
-                                <span class="like-icon"><i class="fa-regular fa-heart"></i></span>
+                            <div class="play-stats">
+                                <div class="like">
+                                    <span class="like-icon"><i class="fa-regular fa-heart"></i></span>
+                                    <span class="like-stats">365</span>
+                                </div>
+                                
                                 <button class="play-btn">
                                     <i class="fa-solid fa-play"></i>
                                 </button>
-                                <span class="total">31k</span>
+                                <span class="total-play">31k</span>
                             </div>
                         </div>
                         <div class="song-item">
@@ -140,14 +146,15 @@
                     </div>
                 </div>
                 <!--Song Cover-->
-                <div class="col">
+                <div class="col img">
                     <img src="./assets/song-cover.jpg" alt="Photo by Darya Sannikova: https://www.pexels.com/photo/photo-of-woman-sipping-from-bottle-4633806/" />
                     
                 </div>
             </div>
         </div>
+        
     </div>
-    <!--Scroll-->
+   
     <!--Music player-->
     <div class="musix-player-container">
         <div class="musix-player">
